@@ -1,0 +1,28 @@
+# macOS / editors
+.DS_Store
+._*
+.idea/
+.vscode/
+~$*
+*.swp
+*.swo
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / JavaScript caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+
+# Generated scratch output
+*.log
+tmp/
+.cache/
